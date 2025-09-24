@@ -31,54 +31,54 @@ An intelligent article discovery tool that searches multiple news sources and us
 ### Installation
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/ikenna-e/ai-article-scraper.git
-cd ai-article-scraper
-```
+   ```bash
+   git clone https://github.com/ikenna-e/ai-article-scraper.git
+   cd ai-article-scraper
+   ```
 
 2. **Create virtual environment**
-```bash
-python -m venv venv
+   ```bash
+   python -m venv venv
 
-# On Windows:
-venv\Scripts\activate
+   # On Windows:
+   venv\Scripts\activate
 
-# On Mac/Linux:
-source venv/bin/activate
-```
+   # On Mac/Linux:
+   source venv/bin/activate
+   ```
 
-```markdown
 3. **Install dependencies**
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-**Note**: Ensure you use these specific versions for compatibility:
-```
-aiohttp==3.8.6
-anthropic==0.25.1
-beautifulsoup4==4.12.2
-Flask==2.3.3
-flask-cors==4.0.0
-lxml==4.9.3
-python-dotenv==1.0.0
-feedparser==6.0.10
-httpx==0.27.0  # Critical: newer versions cause API issues
-```
-```
+   **Note**: Ensure you use these specific versions for compatibility:
+   ```
+   aiohttp==3.8.6
+   anthropic==0.25.1
+   beautifulsoup4==4.12.2
+   Flask==2.3.3
+   flask-cors==4.0.0
+   lxml==4.9.3
+   python-dotenv==1.0.0
+   feedparser==6.0.10
+   httpx==0.27.0  # Critical: newer versions cause API issues
+   ```
 
 4. **Set up environment variables**
-```bash
-# Create .env file
-echo "ANTHROPIC_API_KEY=your-api-key-here" > .env
-```
+   ```bash
+   # Create .env file
+   echo "ANTHROPIC_API_KEY=your-api-key-here" > .env
+   ```
 
 5. **Run the application**
-```bash
-python app.py
-```
+   ```bash
+   python app.py
+   ```
 
 6. **Open your browser**
-Navigate to `http://localhost:5000`
+   
+   Navigate to `http://localhost:5000`
 
 ## Usage
 
